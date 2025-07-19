@@ -71,6 +71,7 @@ nav {
     margin-top: 116px;
     display: flex;
     justify-content: space-around;
+    gap: 90px;
 
 }
 .p1{
@@ -89,9 +90,9 @@ nav {
 /* productive user section */
 .active-usr{
     text-align: center;
-    margin: 116px 180px 0px 180px;
+    margin: 116px 240px 0px 240px;
     background-color: #4d47ff1b;
-    padding: 50px 130px;
+    padding: 50px 100px;
     border-radius: 28px;
 
 }
@@ -117,4 +118,37 @@ nav {
     font-size: 20px;
     color: rgba(0, 0, 0, 0.536);
 
+}
+/* user feedback section */
+.usr-feedback{
+    
+    margin-top: 137px;
+}
+.feedback{
+    display: flex;
+    gap: 130px;
+    justify-content: center;
+
+}
+.review{
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.077) ;
+    padding: 20px 120px 20px 20px;
+    border-radius: 14px;
+}
+
+.card{
+    display: flex;
+    gap: 14px;
+}
+.card-image{
+    border-radius: 50em;
+}
+#p001{
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+}
+#p002{
+    font-size: larger;
+    font-weight: bold;
 }
