@@ -81,6 +81,40 @@ nav {
     font-size: 24px;
     color: rgba(0, 0, 0, 0.471);
 }
-.image{
+.action div img{
     border-radius: 48px;
+    
+    
+}
+/* productive user section */
+.active-usr{
+    text-align: center;
+    margin: 116px 180px 0px 180px;
+    background-color: #4d47ff1b;
+    padding: 50px 130px;
+    border-radius: 28px;
+
+}
+.active-usr-info{
+    display: flex;
+    gap: 158px;
+    justify-content: center;
+}
+.active-usr-heading{
+    font-size: 38px;
+    font-weight: bold;
+
+}
+.p01 {
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF;
+    margin-bottom: 5px;
+
+}
+.p02{
+    margin-top: 2px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.536);
+
 }
