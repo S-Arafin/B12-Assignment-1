@@ -17,6 +17,9 @@
 .basic-color {
     color: #4E47FF;
 }
+body{
+    background-color: #0800ff15;
+}
 
 a {
     text-decoration: none;
@@ -151,4 +154,26 @@ nav {
 #p002{
     font-size: larger;
     font-weight: bold;
+}
+/* focus better section */
+.focus{
+    text-align: center;
+    margin-top: 137px;
+    background-color: rgba(255, 255, 255, 0.367);
+    margin: 137px 240px;
+    padding: 20px;
+    border-radius: 14px;
+}
+#p0001{
+    font-size: 50px;
+    font-weight: bold;
+}
+#p0002{
+    color: rgba(0, 0, 0, 0.526);
+}
+.focus-img{
+    border-radius: 48px;
+}
+.focus p{
+    margin-bottom: 30px;
 }
