@@ -183,7 +183,7 @@ nav {
     display: flex;
     gap: 40px;
     justify-content:space-around;
-    margin:100px 130px;
+    margin:130px 130px;
 }
 .in-touch p{
     font-size: 97px;
@@ -228,4 +228,32 @@ input[type="button"]:hover{
     background-color: rgba(128, 0, 128, 0.747);
     border-radius: 0px;
     padding: 19px 222px;
+}
+/* footer section */
+footer{
+    justify-content: center;
+    text-align: center;
+    padding: 90px 574px;
+    background-color: #ffffff7a;
+
+}
+#p00001{
+    font-size: 100px;
+    margin-bottom: 10px;
+}
+#p00002{
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.504);
+}
+.footer-links a{
+    font-size: 18;
+    color: rgba(0, 0, 0, 0.548);
+}
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    text-align: left;
+    gap: 15px;
+    margin-right: 33px;
 }
