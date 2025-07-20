@@ -34,12 +34,13 @@ a {
     background-color: #4E47FF;
     font-size: 16;
     font-weight: bold;
+    color: white;
 }
 
 .btn:hover {
     background-color: rgba(128, 0, 128, 0.747);
     border-radius: 0px;
-    padding: 13px 37px;
+    padding: 12px 36px;
 }
 
 /* Header and banner section */
@@ -176,4 +177,55 @@ nav {
 }
 .focus p{
     margin-bottom: 30px;
+}
+/*  get in touch section*/
+.in-touch{
+    display: flex;
+    gap: 40px;
+    justify-content:space-around;
+    margin:100px 130px;
+}
+.in-touch p{
+    font-size: 97px;
+    font-weight: bold;
+    
+}
+form{
+    display: block;
+}
+.form {
+    max-width: 497px;
+    height: 70px;
+
+}
+form input , textarea{
+    padding: 30px 50px;
+    padding-right: 300px;
+    border: none;
+    border-radius: 14px;
+    margin: 10px
+    
+
+}
+form label{
+    font-size: 18px;
+    margin: 20px;
+    margin-left: 0px;
+    font-weight:600;
+    padding: 10px;
+}
+input[type="button"]{
+     border: none;
+    border-radius: 10px;
+    padding: 19px 222px;
+    background-color: #4E47FF;
+    font-size: 16;
+    font-weight: bold;
+    color: white;
+
+}
+input[type="button"]:hover{
+    background-color: rgba(128, 0, 128, 0.747);
+    border-radius: 0px;
+    padding: 19px 222px;
 }
